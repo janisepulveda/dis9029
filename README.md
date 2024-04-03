@@ -11,7 +11,7 @@
 
 ## repositorio
 
-repositorio para control de versiones de la clase tecnologías interactivas de la universidad diego portales
+repositorio para control de versiones de la clase tecnologías interactivas
 
 ## bibliografía web
 
