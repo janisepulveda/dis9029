@@ -2,19 +2,20 @@
 
 ## Acerca de
 
-- universidad: Universidad Diego Portales
-- facultad: Facultad de Arquitectura, Arte y Diseño
-- departamento: Departamento de Diseño
-- curso: DIS9029 Tecnologías Interactivas
-- semestre: primer semestre 2024
-- profesor: [Nicolás Troncoso](https://github.com/nicotron/)
+- Universidad: Universidad Diego Portales
+- Facultad: Facultad de Arquitectura, Arte y Diseño
+- Departamento: Departamento de Diseño
+- Curso: DIS9029 Tecnologías Interactivas
+- Semestre: primer semestre 2024
+- Profesor: [Nicolás Troncoso](https://github.com/nicotron/)
 
 ## Repositorio
 
-repositorio para control de versiones de la clase tecnologías interactivas
+Repositorio para control de versiones de la clase tecnologías interactivas
 
 ## Entregas
 
+[Solemne 01](https://github.com/janisepulveda/dis9029/tree/main/solemne01)
 
 ## Bibliografía web
 
