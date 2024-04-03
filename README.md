@@ -1,6 +1,6 @@
-# dis9029
+# dis9029 Tecnologías Interactivas
 
-## acerca de
+## Acerca de
 
 - universidad: Universidad Diego Portales
 - facultad: Facultad de Arquitectura, Arte y Diseño
@@ -9,11 +9,14 @@
 - semestre: primer semestre 2024
 - profesor: [Nicolás Troncoso](https://github.com/nicotron/)
 
-## repositorio
+## Repositorio
 
 repositorio para control de versiones de la clase tecnologías interactivas
 
-## bibliografía web
+## Entregas
+
+
+## Bibliografía web
 
 - <https://www.arduino.cc/reference/en/>
 - <https://www.w3schools.com/>
