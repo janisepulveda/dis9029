@@ -1,31 +1,47 @@
 # Solemne 01
 
-## Descripción del objetivo del artefacto
+## Descripción del artefacto
 
-El objetivo de este proyecto es que los estudiantes adquieran habilidades prácticas en el diseño, desarrollo y construcción de artefactos que integren componentes análogos y digitales, por medio del diseño de algoritmos, la depuración de código y la construcción física de circuitos. Además, se espera que el artefacto final demuestre un cambio efectivo en las funciones de lectura y uso, así como la capacidad de proporcionar feedback visual y/o sonoro de manera adecuada.
+Juego de memoria interactivo en el que el jugador deberá memorizar una secuencia de luces LEDs y sonidos, y reproducirlos mediante pulsadores.
 
-## Descripción de los requisitos
+## Tecnologías y Herramientas de trabajo
 
-### Entradas y salidas del artefacto
+- Arduino UNO R4.
+- Arduino IDE.
+- Cables Dupont.
+- LEDs rojo, azul, amarillo y verde.
+- Botones pulsadores.
+- Breadboard.
+- Resistencias de 220 ohms.
+- Resistencias de 10k ohms.
+- Buzzer.
 
-- El artefacto diseñado debe ser capaz de interactuar con su entorno-usuario a través de entradas análogas y digitales.
+## Instrucciones de instalación
 
-### Entradas análogas y digitales
+1. **Montaje en el breadboard:**
+   - Conecta cada LED a una resistencia de 220 ohmios y luego a los pines digitales 2, 3, 4 y 5 del Arduino.
+   - Conecta cada botón táctil a una resistencia de 10k ohmios y luego a los pines digitales 8, 9, 10 y 11 del Arduino.
+   - Conecta el buzzer al pin digital 6 del Arduino.
+   - Asegúrate de conectar los cables correctamente, siguiendo el esquema del código.
 
-- Las entradas análogas deben permitir la lectura de señales variables en el tiempo, como la luminosidad del ambiente, la presencia o ausencia de objetos, utilizando sensores como luz, infrarrojos o ultrasonido.
-- Las entradas digitales deben permitir el cambio de funcionalidades, el ajuste de los rangos de entrada.
+2. **Conexión al Arduino:**
+   - Conecta el cable USB al Arduino y a tu computador para cargar el código.
 
-### Modificación por el algoritmo
+3. **Carga del código:**
+   - Abre el software de Arduino en tu computador.
+   - Copia y pega el código en un nuevo archivo.
+   - Verifica el código para asegurarte de que no haya errores.
+   - Selecciona el tipo de placa y el puerto correcto en el menú Herramientas.
+   - Haz clic en el botón "Cargar" para subir el código al Arduino.
 
-- El algoritmo implementado en el artefacto debe ser capaz de procesar la información recibida de las entradas y realizar ajustes o modificaciones según sea necesario. Esto puede incluir cambios en la salida basados en ciertos criterios predefinidos, como ajustes de intensidad de luz o sonido.
+4. **Ejecución:**
+   - Una vez cargado el código, observa cómo se ejecuta en el Arduino.
+   - Observa los LEDs y escucha los tonos del buzzer para seguir la secuencia.
+   - Presiona los botones táctiles en el orden correcto para repetir la secuencia.
 
-### Funcionalidades de cambio de lectural y/o ajuste de lectura
+## Bibliografía
 
-- El artefacto debe ser capaz de cambiar dinámicamente entre diferentes fuentes de lectura, según las necesidades o condiciones del entorno.
-- Además, debe tener la capacidad de ajustar la lectura o la salida en función de los datos recibidos, lo que podría implicar cambios en la intensidad de la luz emitida o el volumen del sonido generado.
+<https://www.arduino.cc/reference/en/>
+<https://www.arduino.cc/en/software>
 
-### Salida de luz o sonido
-
-- La salida del artefacto debe ser perceptible para los usuarios, ya sea en forma de luz visible o sonido audible, dependiendo de la aplicación específica del artefacto.
-- La salida debe ser claramente distinguible y comprensible, proporcionando retroalimentación efectiva sobre los cambios realizados por el algoritmo en respuesta a las entradas del entorno.
   
