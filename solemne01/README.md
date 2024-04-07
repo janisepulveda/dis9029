@@ -20,7 +20,7 @@ Juego de memoria interactivo en el que el jugador deberá memorizar una secuenci
 
 1. **Montaje en el breadboard:**
    - Conecta cada LED a una resistencia de 220 ohmios y luego a los pines digitales 2, 3, 4 y 5 del Arduino.
-   - Conecta cada botón táctil a una resistencia de 10k ohmios y luego a los pines análogos 8, 9, 10 y 11 del Arduino.
+   - Conecta cada botón táctil a una resistencia de 10k ohmios y luego a los pines análogos A2, A3, A4 y A5 del Arduino.
    - Conecta el buzzer al pin digital 6 del Arduino.
    - Asegúrate de conectar los cables correctamente, siguiendo el esquema del código.
 
@@ -43,5 +43,6 @@ Juego de memoria interactivo en el que el jugador deberá memorizar una secuenci
 
 <https://www.arduino.cc/reference/en/>
 <https://www.arduino.cc/en/software>
+<https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code>
 
   
