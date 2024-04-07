@@ -41,8 +41,8 @@ Juego de memoria interactivo en el que el jugador deberá memorizar una secuenci
 
 ## Bibliografía
 
-<https://www.arduino.cc/reference/en/>
-<https://www.arduino.cc/en/software>
-<https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code>
+- <https://www.arduino.cc/reference/en/>
+- <https://www.arduino.cc/en/software>
+- <https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code>
 
   
