@@ -16,6 +16,7 @@ Repositorio para control de versiones de la clase tecnologías interactivas
 ## Entregas
 
 [Solemne 01](https://github.com/janisepulveda/dis9029/tree/main/solemne01)
+[Solemne 02](./solemne02)
 
 ## Bibliografía web
 
