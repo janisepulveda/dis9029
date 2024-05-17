@@ -121,7 +121,10 @@ void draw() {
 }
 ```
   - Este código muestra la animación que quiero lograr. La idea es que sea reactiva a las pulsaciones enviadas por arduino.
-  - 
+
+![Animación](./animacionProcessing.gif)
+
+
 ## Tecnologías y Herramientas de trabajo
 
 - Arduino UNO R4 wifi.
