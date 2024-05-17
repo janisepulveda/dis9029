@@ -124,6 +124,9 @@ void draw() {
 
 ![Animación](./animacionProcessing.gif)
 
+- Como referente para contener los elementos del hardware estoy usando las obras de Peter Vogel:
+
+![Peter Vogel](./animacionProcessing.gif)
 
 ## Tecnologías y Herramientas de trabajo
 
