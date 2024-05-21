@@ -164,9 +164,9 @@ El proyecto consiste en un sistema de comunicación basado en WiFi entre dos mic
 
 ## Bibliografía
 
-https://github.com/arduino-libraries/ArduinoHttpClient/blob/master/examples/SimpleGet/SimpleGet.ino
-https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-client
-https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server
+- https://github.com/arduino-libraries/ArduinoHttpClient/blob/master/examples/SimpleGet/SimpleGet.ino
+- https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-client
+- https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server
   
 
 
