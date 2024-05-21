@@ -8,7 +8,7 @@
 - 08/05 Taller de producción - presentación solemne 02
 - 15/05 Taller de producción
 
-## Descripción del artefacto
+## Descripción del artefacto (proceso)
 
 - Collar interactivo de pulso utilizando Arduino. El dispositivo está diseñado para medir el ritmo cardíaco del usuario a través de un sensor integrado en el collar y mostrar visualmente el pulso en una pantalla OLED.
 
@@ -128,10 +128,13 @@ void draw() {
 
 ![Peter Vogel](./peterVogel.png)
 
+## Descripción del artefacto 
+
+El proyecto consiste en un sistema de comunicación basado en WiFi entre dos microcontroladores Arduino y Processing. Arduino actúa como un dispositivo de adquisición de datos del sensor, mientras que la aplicación Processing sirve como una herramienta de visualización de datos.
+
 ## Tecnologías y Herramientas de trabajo
 
-- Arduino UNO R4 wifi.
-- Pantalla OLED.
+- 2x Arduino UNO R4 wifi.
 - Cables.
 - Alambre.
 - Pilas.
