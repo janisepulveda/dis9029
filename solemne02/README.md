@@ -7,7 +7,8 @@
 - 01/05 Feriado
 - 08/05 Taller de producción - presentación solemne 02
 - 15/05 Taller de producción
-
+- 22/05 Entrega
+  
 ## Descripción del artefacto (proceso)
 
 - Collar interactivo de pulso utilizando Arduino. El dispositivo está diseñado para medir el ritmo cardíaco del usuario a través de un sensor integrado en el collar y mostrar visualmente el pulso en una pantalla OLED.
