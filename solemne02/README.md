@@ -144,23 +144,29 @@ El proyecto consiste en un sistema de comunicación basado en WiFi entre dos mic
 
 1. Asignar roles a cada arduino:
 
-- El Arduino designado como servidor tendrá conectado el sensor de pulso cardiaco.
-- El Arduino designado como cliente estará conectado al computador y se conectará via comunicación serial a Processing.
+  - El Arduino designado como servidor tendrá conectado el sensor de pulso cardiaco.
+  - El Arduino designado como cliente estará conectado al computador y se conectará via comunicación serial a Processing.
 
 2. Configuración del hardware:
 
-- Conectar el sensor al pin análogo 0 del Arduino escogido como servidor.
-- Asegurar una fuente de alimentación adecuada para el Arduino y el sensor.
+  - Conectar el sensor al pin análogo 0 del Arduino escogido como servidor.
+  - Asegurar una fuente de alimentación adecuada para el Arduino y el sensor.
   
 3. Desarrollo del código Arduino:
 
-- Subir los códigos Arduino proporcionados en el repositorio de GitHub a los microcontroladores Arduino.
-- Estos códigos configuran la conexión WiFi, lee datos del sensor y los envía a la aplicación Processing.
+  - Subir los códigos Arduino proporcionados en el repositorio de GitHub a los microcontroladores Arduino.
+  - Estos códigos configuran la conexión WiFi, lee datos del sensor y los envía a la aplicación Processing.
   
 4. Desarrollo del código Processing:
 
-- Subir el código a Processing proporcionado en el repositorio de GitHub.
-- Este código establece la comunicación serial, recibe datos del sensor del Arduino, los procesa y los transforma en una animación visual.
+  - Subir el código a Processing proporcionado en el repositorio de GitHub.
+  - Este código establece la comunicación serial, recibe datos del sensor del Arduino, los procesa y los transforma en una animación visual.
+
+## Bibliografía
+
+https://github.com/arduino-libraries/ArduinoHttpClient/blob/master/examples/SimpleGet/SimpleGet.ino
+https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-client
+https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server
   
 
 
