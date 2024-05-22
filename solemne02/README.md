@@ -131,7 +131,7 @@ void draw() {
 
 ## Descripción del artefacto 
 
-El proyecto consiste en un sistema de comunicación basado en WiFi entre dos microcontroladores Arduino, un servidor y un cliente, y Processing. Arduino actúa como un dispositivo de adquisición de datos del sensor, mientras que la aplicación Processing sirve como una herramienta de visualización de datos.
+Collar interactivo de pulso utilizando Arduino. El proyecto consiste en un sistema de comunicación basado en WiFi entre dos microcontroladores Arduino, un servidor y un cliente, y Processing. Arduino actúa como un dispositivo de adquisición de datos del sensor, mientras que la aplicación Processing sirve como una herramienta de visualización de datos.
 
 ## Tecnologías y Herramientas de trabajo
 
