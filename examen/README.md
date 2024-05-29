@@ -52,5 +52,3 @@
 - servidor con una url. github pages. pasar el codigo Processing a p5.js.
 
 ## Mejoras aplicadas solemne 02
-
-- 
