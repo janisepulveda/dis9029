@@ -17,6 +17,7 @@ Repositorio para control de versiones de la clase tecnologías interactivas
 
 - [Solemne 01](./solemne01)
 - [Solemne 02](./solemne02)
+- [Examen](./examen)
 
 ## Bibliografía web
 
