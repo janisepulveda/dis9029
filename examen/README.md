@@ -19,27 +19,52 @@
 - A nivel software:
 
 ```cpp
-// configura los pines de los botones como entradas
-  for (int i = 0; i <= 3; i++) {
-    pinMode(botones[i], INPUT);
+// según el estado del botón, imprime en la consola encendido o apagado
+  estadoBoton = digitalRead(pinBoton);
+  if (estadoBoton != ultimoEstadoBoton) {
+    if (estadoBoton == HIGH) {
+      juegoEncendido = !juegoEncendido;
+      if (juegoEncendido) {
+        Serial.println("Juego de memoria encendido.");
+        iniciarJuego();
+      } else {
+        Serial.println("Juego de memoria apagado.");
+        apagarJuego();
+      }
+    }
+    ultimoEstadoBoton = estadoBoton;
   }
-  // inicia la semilla del generador de números aleatorios
-  randomSeed(analogRead(0));
-  
-  // Iniciar la comunicación serie
-  Serial.begin(9600);
-  Serial.println("Juego de memoria iniciado.");
+
+  if (juegoEncendido && !perder) {
+    jugarRonda();
+  }
 ```
 
 ``` cpp
- // indica que el jugador ha perdido
-      perder = true;
-      // produce un sonido al perder
-      tone(buzzer, 200);
-      delay(100);
-      noTone(buzzer);
-      Serial.println("Secuencia incorrecta. Has perdido.");
+ void iniciarJuego() {
+  ronda = 0;
+  paso = 0;
+  perder = false;
+  secuencia[ronda] = random(0, 3);
+  ronda++;
+ }
 ```
+
+```cpp
+void apagarJuego() {
+  // apaga los LEDs y el buzzer
+  noTone(buzzer);
+  for (int i = 0; i < 3; i++) {
+    digitalWrite(leds[i], LOW);
+  }
+  // reinicia el juego
+  ronda = 0;
+  perder = false;
+}
+```
+
+- A nivel de hardware:
+  - Sacar el protoboard y soldar cables para que todo quede unido al Arduino.
 
 ## Propuestas de mejora solemne 02
 
