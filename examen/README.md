@@ -16,7 +16,9 @@
 
 ## Mejoras aplicadas solemne 01
 
-- A nivel software:
+A nivel software:
+
+- Botón encendido/apagado:
 
 ```cpp
 // según el estado del botón, imprime en la consola encendido o apagado
@@ -40,6 +42,8 @@
   }
 ```
 
+- Función para iniciar el juego:
+
 ``` cpp
  void iniciarJuego() {
   ronda = 0;
@@ -49,6 +53,8 @@
   ronda++;
  }
 ```
+
+- Función para apagar el juego:
 
 ```cpp
 void apagarJuego() {
