@@ -69,8 +69,9 @@ void apagarJuego() {
 }
 ```
 
-- A nivel de hardware:
-  - Sacar el protoboard y soldar cables para que todo quede unido al Arduino.
+A nivel de hardware:
+
+- Sacar el protoboard y soldar cables para que todo quede unido al Arduino.
 
 ## Propuestas de mejora solemne 02
 
