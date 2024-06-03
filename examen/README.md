@@ -138,4 +138,4 @@ A nivel software:
 
 Vista previa del código en la web:
 
-[Vista previa del código en la web](./assets/serverJS.gif)
+![Vista previa del código en la web](./assets/serverJS.gif)
