@@ -12,7 +12,7 @@
 
 - A nivel hardware, añadir un case que contenga el circuito.
 
-- sacar el protoboard. conectar todo directo a Arduino
+- Sacar el protoboard. conectar todo directo a Arduino
 
 ## Mejoras aplicadas solemne 01
 
