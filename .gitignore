@@ -1,1 +1,5 @@
+# Apple
 .DS_Store
+
+# Arduino
+arduino_secrets.h
