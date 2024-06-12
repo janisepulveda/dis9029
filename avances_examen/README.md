@@ -3,6 +3,9 @@
 ## Fechas importantes
 
 - 29/05 Taller de producción.
+- 05/06 Taller de producción.
+- 12/06 Taller de producción.
+- 19/06 Taller de producción.
 
 ## Propuestas de mejora solemne01
 
