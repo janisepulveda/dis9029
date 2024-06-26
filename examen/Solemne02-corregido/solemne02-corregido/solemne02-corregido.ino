@@ -9,7 +9,7 @@ int status = WL_IDLE_STATUS;
 
 WiFiServer server(80);
 
-const int pulsePin = A0;  // Pin analógico al que está conectado el sensor de pulso
+const int pulsePin = 11;  // Pin al que está conectado el sensor de pulso
 int pulseValue = 0;  // Valor leído del sensor de pulso
 
 void setup() {

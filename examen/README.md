@@ -169,4 +169,7 @@ Vista previa del código en la web:
 
 ## Bibliografía
 
-<https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server>
+- <https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server>
+- <https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-client>
+- <https://github.com/arduino-libraries/ArduinoHttpClient/blob/master/examples/SimpleGet/SimpleGet.ino>
+- <https://www.digikey.com/es/resources/conversion-calculators/conversion-calculator-resistor-color-code>
