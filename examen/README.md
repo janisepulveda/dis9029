@@ -2,9 +2,42 @@
 
 ## Fechas importantes
 
-- Fecha de entrega: TODO
+- Fecha de entrega: 26/06
 
-## Mejoras aplicadas solemne 01
+## Solemne 01 - descripción del artefacto
+
+Juego de memoria interactivo en el que el jugador deberá memorizar una secuencia de luces LEDs y sonidos, y reproducirlos mediante pulsadores.
+
+## Solemne 01 - tecnologías y Herramientas de trabajo
+
+- Arduino UNO R4.
+- Arduino IDE.
+- Cables Dupont.
+- LEDs rojo, azul, amarillo y verde.
+- Botones pulsadores.
+- Breadboard.
+- Resistencias de 220 ohms.
+- Resistencias de 10k ohms.
+- Buzzer.
+
+![listado de componentes](./assets/solemne01.PNG)
+
+## Solemne 01 - tecnologías y Herramientas de trabajo **actualizadas**
+
+- Arduino UNO R4.
+- Arduino IDE.
+- Cables Dupont.
+- LEDs rojo, azul, amarillo y verde.
+- Botones pulsadores.
+- Resistencias de 220 ohms.
+- Resistencias de 10k ohms.
+- Buzzer.
+- Cautín.
+- Soldadura de estaño.
+
+![listado de componentes](./assets/solemne01_act.jpg)
+
+## Solemne 01 - mejoras aplicadas
 
 A nivel software:
 
@@ -59,6 +92,30 @@ void apagarJuego() {
 }
 ```
 
+## Solemne 02 - descripción del artefacto
+
+Collar interactivo de pulso utilizando Arduino. El proyecto consiste en un sistema de comunicación basado en WiFi entre dos microcontroladores Arduino, un servidor y un cliente, y Processing. Arduino actúa como un dispositivo de adquisición de datos del sensor, mientras que la aplicación Processing sirve como una herramienta de visualización de datos.
+
+## Solemne 02 - tecnologías y Herramientas de trabajo
+
+- 2x Arduino UNO R4 wifi.
+- Cables.
+- Alambre.
+- Pilas.
+- Sensor de pulso cardiaco.
+
+![listado de componentes](./assets/solemne02.JPG)
+
+## Solemne 02 - tecnologías y Herramientas de trabajo **actualizado**
+
+- Arduino UNO R4 wifi.
+- Cables.
+- Corset.
+- Batería.
+- Sensor de pulso cardiaco.
+
+![listado de componentes](./assets/solemne02.JPG)
+
 ## Mejoras aplicadas solemne 02
 
 A nivel software:
@@ -110,4 +167,6 @@ Vista previa del código en la web:
 
 ![Vista previa del código en la web](./assets/jsWeb.gif)
 
-## Entrega
+## Bibliografía
+
+<https://docs.arduino.cc/tutorials/uno-r4-wifi/wifi-examples/#wi-fi-web-server>
